@@ -1,6 +1,5 @@
-/** @jsx jsx */
 import React, { useState } from 'react';
-import { jsx, css } from '@emotion/react'
+import { css } from '@emotion/react'
 
 import { codeEncrypt, codeDecrypt } from '../../service/codeEncryptAndDecrypt';
 

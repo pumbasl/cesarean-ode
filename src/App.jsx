@@ -1,6 +1,5 @@
-/** @jsx jsx */
 import React from 'react';
-import { jsx, Global, css } from '@emotion/react'
+import { Global, css } from '@emotion/react'
 
 import Main from './Main';
 import Wrapper from './components/Wrapper';
