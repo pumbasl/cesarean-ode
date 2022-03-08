@@ -7,31 +7,23 @@ Empty project.
 First install dependencies:
 
 ```sh
-npm install
+yarn
 ```
 
 To run in hot module reloading mode:
 
 ```sh
-npm start
+yarn start
 ```
 
-To create a production build:
+To create a production build without source-map:
 
 ```sh
-npm run build-prod
+yarn build
 ```
 
-To create a development build:
+To create a production build with source-map:
 
 ```sh
-npm run build-dev
+yarn build-prod
 ```
-
-## Running
-
-Open the file `dist/index.html` in your browser
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
